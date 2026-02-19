@@ -1,0 +1,161 @@
+/* Custom styles for the Wantedreg component */
+
+/* Container for the form */
+.wantedreg-container {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+.wantedreg-header {
+  color: #ba1931;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Form field labels */
+.form-label {
+    font-weight: 600;
+    color: #333;
+}
+
+/* Customize input fields */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.4);
+}
+
+/* Customize select dropdowns */
+.form-select {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-select:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.4);
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #004085;
+    border-color: #004085;
+}
+
+/* Margin adjustment for form elements */
+.mb-3 {
+    margin-bottom: 1.5rem;
+}
+
+/* Add some space around the form */
+.wantedreg-form-wrapper {
+    margin-top: 50px;
+}
+.confirmDelete{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+.cancel{
+   background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+ 
+}
+.conformmain{
+    display: flex;
+    gap: 8px;
+    margin-left: 270px;
+}
+/* popup msg */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .popup-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .popup-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .popup-close {
+    cursor: pointer;
+    font-size: 20px;
+    color: #666;
+  }
+  
+  .popup-close:hover {
+    color: #000;
+  }
+  
+  .popup-body {
+    margin-bottom: 15px;
+  }
+  
+  .popup-footer {
+    text-align: right;
+  }
+  
+  .popup-footer button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .popup-footer button:hover {
+    background: #0056b3;
+}
